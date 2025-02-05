@@ -1,0 +1,55 @@
+/* StylesOfShoots.css */
+.styles-of-shoots {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .styles-of-shoots h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .styles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .style-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .style-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .style-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .style-card h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .style-card p {
+    font-size: 1rem;
+    color: #555;
+    padding: 0 1rem 1rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .styles-grid {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  }
