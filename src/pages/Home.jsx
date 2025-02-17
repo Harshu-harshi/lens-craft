@@ -26,7 +26,7 @@ const Home = () => {
     <div className="home">
       <div className="home-content">
         <div className="home-image">
-          <img src="/public/image/homepage.jpeg" alt="Photography" />
+          <img src="/public/image/home.jpeg" alt="Photography" />
         </div>
         <div className="bar">
           <div className="bar-content">
@@ -39,11 +39,13 @@ const Home = () => {
         </div>
         <div className="home-slider">
           <Slider {...settings}>
-            <div><img src="/public/image/PSX_20240308_131127.jpg" alt="Slide 1" /></div>
-            <div><img src="/public/image/image2.jpg" alt="Slide 2" /></div>
+            <div><img src="/public/image/ld2.jpeg" alt="Slide 1" /></div>
+            <div><img src="/public/image/T3.jpeg" alt="Slide 2" /></div>
             <div><img src="/public/image/image3.jpg" alt="Slide 3" /></div>
-            <div><img src="/public/image/image6.jpeg" alt="Slide 4" /></div>
-            <div><img src="/public/image/PSX_20240502_232701.jpg" alt="Slide 5" /></div>
+            <div><img src="/public/image/image5.jpeg" alt="Slide 4" /></div>
+            <div><img src="/public/image/Ani8.jpeg" alt="Slide 5" /></div>
+            <div><img src="/public/image/T2.jpeg" alt="Slide 6" /></div>
+
           </Slider>
         </div>
       </div>

@@ -11,7 +11,7 @@ const Contact = () => {
 
     // Show alert message
     alert(
-      'Thank you for contacting us! We will get back to you soon.\n\nFor fast reservation, call 9347501328.'
+      'Thank you for contacting us! We will get back to you soon.\n\nFor fast reservation, call 7793085621.'
     );
 
     // Clear the form fields
@@ -28,7 +28,7 @@ const Contact = () => {
         </div>
         
         <h2 style={{fontSize:'25px',fontFamily:'Poppins'}}>Our Address</h2>
-        <p>123 Photography Lane, City, Country</p>  
+        <p>123 Photography Lane, Mysuru, India</p>  
       </div>
       <div className="contact-form">
         <center><h2 style={{fontSize:'35px',fontFamily:'Poppins'}}>Contact Us</h2></center>

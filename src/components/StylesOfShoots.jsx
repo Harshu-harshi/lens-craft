@@ -7,15 +7,14 @@ const StylesOfShoots = () => {
     {
       id: 1,
       name: 'Auto Photography',
-      image: '',
-      video:'',
-      description: 'Capture the most special day of your life with our professional wedding photography services.',
+      image: '/public/image/PSX_20240308_131127.jpg',
+      description: 'Capture a stylish car in an open road, emphasizing speed, reflections, and dynamic lighting for a dramatic effect.',
     },
     {
       id: 2,
-      name: 'Portrait Photography',
+      name: 'Animals Photography',
       image: '/public/image/Ani1.jpg',
-      description: 'Beautiful portraits that highlight your personality and emotions.',
+      description: 'Animals photography is a specialized genre focused on capturing images of animals in their natural habitats',
     },
     {
       id: 3,
@@ -27,20 +26,27 @@ const StylesOfShoots = () => {
       id: 4,
       name: 'Street Photography',
       image: '/public/image/ST1.JPG',
-      description: '.',
+      description: 'The marvels of daily life are exciting; no movie director can arrange the unexpected that you find in the street.',
     },
     {
       id: 5,
       name: 'Travel Photography',
       image: '/public/image/t1.jpg',
-      video :'/public/video/travel1.mp4',
-      description: 'High-fashion photography that showcases style and elegance.',
+      // video :'/public/video/travel1.mp4',
+      description: 'The main goal of a travel photographer is to capture stunning images of their experiences in locations away from home. This allows them to serve as storytellers and educators on the world diversity',
+    },
+    {
+      id: 6,
+      name: 'Hist Photography',
+      image: '/public/image/ST6.jpeg',
+      description: 'The history of architecture traces the changes in architecture through various traditions, regions, overarching stylistic trends, and dates',
     },
   ];
 
   return (
     <div className="styles-of-shoots">
-      <h1>Styles of Shoots</h1><hr style={{width:'15%',height:'6px',backgroundColor:'black',borderRadius:'10px'}}/>
+      <h1>Styles of Shoots</h1><u>Styles of Shoots</u>
+      {/* <hr style={{width:'15%',height:'6px',backgroundColor:'black',borderRadius:'10px'}}/> */}
       <div className="styles-grid">
         {styles.map((style) => (
           <Link to={`/styles/${style.id}`} key={style.id} className="style-card">

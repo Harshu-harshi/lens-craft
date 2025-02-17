@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Miniver&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+US+Modern+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .home {
   padding: 2rem;
-  
   background-image: url(https://wallpaperaccess.com/full/1357427.jpg);
 }
 
@@ -14,9 +18,10 @@
 }
 
 .home-image img {
-  width: 100%;
-  max-width: 300%; 
-  height: 100%;
+  flex: 1;
+  /* width: 500px; */
+  max-width: 550px; 
+  height:450px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
@@ -28,17 +33,21 @@
   border-radius: 10px;
   color: white;
   text-align: center;
-  flex: 1;
-  margin: auto 1rem;
-  height: 425px;
-  margin-left: -25px;
+  flex: 2;
+  margin: auto 35.5rem;
+  height: auto;
+  width: 200px;
+  margin-top: -41%;
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-bottom: 0.5rem;
   color: wheat;
   font-family: 'Quicksand';
+  text-align: center ;
+  position: relative;
+  left:-6px;
 }
 
 .bar-content p {
@@ -47,9 +56,11 @@
 }
 
 .home-slider {
-  width: 35%;
-  position: relative;
-  margin-left: -35px;
+  width: 33%;
+  height: 350px;
+  position: absolute;
+  right: 20px;
+  top: 105px;
 }
 
 .slick-slide img {
@@ -90,6 +101,25 @@
 .slick-next {
   right: -20px;
 }
+
+
+.home-slider-videos .slick-slide {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  width: 100%;
+  height: 450px;
+  transition: tranform 4.5s ease;
+}
+
+.home-slider-videos video {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
 
 @media (max-width: 1024px) {
   .home-content {

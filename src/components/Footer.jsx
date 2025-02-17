@@ -14,7 +14,7 @@ const Footer = () => {
       </div>
       <div className="social-links">
         <li><Link to='https://facebook.com'><FaFacebook /></Link></li>
-        <li><Link to='https://instagram.com'><TiSocialInstagram /></Link></li>
+        <li><Link to='https://www.instagram.com/har_shu.harshi/'><TiSocialInstagram /></Link></li>
         <li><Link to='https://in.pinterest.com/'><FaPinterest /></Link></li>
         <li><Link to='https://www.youtube.com/'><FaYoutube /></Link></li>
       </div>

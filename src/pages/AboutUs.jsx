@@ -7,16 +7,16 @@ const AboutUs = () => {
   return (
     <div className="about-us-container">
       <div className="about-us-content">
-        <h1 >About Us</h1><hr style={{width:'10%',height:'6px',backgroundColor:'black',borderRadius:'10px'}}/>
+        <h1 >About Us</h1>
+        {/* <hr style={{width:'10%',height:'6px',backgroundColor:'black',borderRadius:'10px'}}/> */}
         <p className="about-us-intro">
-          Welcome to Lens Craft, where we capture life's most precious moments through the lens of creativity and passion. 
-          Based in [Your Location], we specialize in photography and videography services that tell your unique story.
+          Welcome to Lens Craft, where we capture life's most precious moments through the lens of creativity and passion, we specialize in photography and videography services that tell your unique story.
         </p>
         
         <div className="about-us-story">
           <h2>Our Story</h2>
           <p>
-            Founded in 2025, Lens Craft was born out of a love for visual storytelling. 
+            Founded in 2022, Lens Craft was born out of a love for visual storytelling. 
             Our journey began with a simple camera and a dream to create timeless memories for our clients. 
             Over the years, we've grown into a team of dedicated professionals who are passionate about capturing the essence of every moment.
           </p>
@@ -27,7 +27,7 @@ const AboutUs = () => {
         <div className="founders-cards">
           <div className="founder-card">
           {/* Founder 1 */}
-          <img src="/public/image/mee.jpeg" alt="Founder 1" />
+          <img src="/public/image/harshi.jpeg" alt="Founder 1" />
             <h3>Harshini C Raj</h3>
             <p>Co-founder & Lead Photographer</p>
           </div>
@@ -43,6 +43,12 @@ const AboutUs = () => {
             <h3>Rajesh Krishnan</h3>
             <p>Co-founder & Creative Director</p>
           </div>
+           {/* trainer
+           <div className="founder-card">
+            <img src="/public/image/raj.jpeg" alt="Trainer" />
+            <h3>Prajwal</h3>
+            <p>Trainer & Supporter </p>
+          </div> */}
         </div>
       </div>
 
@@ -66,7 +72,7 @@ const AboutUs = () => {
         <div className="about-us-cta">
           <h2>Let's Create Something Beautiful Together</h2>
           <p>
-            Whether it's a wedding, corporate event, or a personal project, we're here to bring your vision to life. 
+            Whether it's a Auto event, Travel story, Animals to Street story telling or a personal project, we're here to bring your vision to life. 
             Contact us today to discuss how we can help you capture your special moments.
           </p>
           <button className="cta-button"><Link to='/contact'>Get in Touch</Link></button>
